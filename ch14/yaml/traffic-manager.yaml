@@ -18,7 +18,7 @@ spec:
         app: traffic-manager
     spec:
       containers:
-      - image: sergioarmgpl/autoexpire
+      - image: allenwayne/autoexpire
         name: autoexpire
         imagePullPolicy: Always
         env:
@@ -28,7 +28,7 @@ spec:
           value: "YOUR_PASSWORD"
         - name: DELAY
           value: "30"
-      - image: sergioarmgpl/traffic_manager
+      - image: allenwayne/traffic_manager
         name: traffic-manager
         imagePullPolicy: Always
         env:

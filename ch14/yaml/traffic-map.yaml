@@ -18,7 +18,7 @@ spec:
         app: traffic-map
     spec:
       containers:
-      - image: sergioarmgpl/traffic_map
+      - image: allenwayne/traffic_map
         name: traffic-map
         imagePullPolicy: Always
         env:
