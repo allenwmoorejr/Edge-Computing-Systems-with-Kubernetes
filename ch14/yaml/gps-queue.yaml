@@ -25,7 +25,7 @@ spec:
         - name: tmp
           mountPath: /tmp
       containers:
-      - image: sergioarmgpl/gps_queue
+      - image: allenwayne/gps_queue
         name: gps-queue
         imagePullPolicy: Always
         env:
@@ -40,7 +40,7 @@ spec:
           name: dev-volume
         - name: tmp
           mountPath: /tmp
-      - image: sergioarmgpl/gps_api
+      - image: allenwayne/gps_api
         name: gps-api
         ports:
         - containerPort: 3000
