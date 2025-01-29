@@ -23,7 +23,7 @@ spec:
       - env:
         - name: MESSAGE
           value: "Knative demo v1"
-        image: sergioarmgpl/app2demo
+        image: allenwayne/app2demo
         name: ""
         ports:
         - containerPort: 5000

@@ -15,7 +15,7 @@ spec:
         app: process
     spec:
       containers:
-      - image: sergioarmgpl/mqttsubs
+      - image: allenwayne/mqttsubs
         imagePullPolicy: Always
         name: mqttsubs
         env:

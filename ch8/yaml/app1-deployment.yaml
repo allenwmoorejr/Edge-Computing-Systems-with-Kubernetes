@@ -16,7 +16,7 @@ spec:
         app: app1
     spec:
       containers:
-      - image: czdev/app1demo
+      - image: allenwayne/app1demo
         name: app1demo
         env:
         - name: MESSAGE

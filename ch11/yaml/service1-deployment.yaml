@@ -20,7 +20,7 @@ spec:
         prometheus.io/port: "5555"
     spec:
       containers:
-      - image: sergioarmgpl/exporter
+      - image: allenwayne/exporter
         name: exporter
         env:
         - name: REDIS_HOST

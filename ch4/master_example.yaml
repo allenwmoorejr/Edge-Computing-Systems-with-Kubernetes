@@ -6,7 +6,7 @@ write_files:
     content: |-
       [service_eth0]
       Type=ethernet
-      IPv4=192.168.0.11/255.255.255.0/192.168.0.1
+      IPv4=192.168.50.2/255.255.255.0/192.168.50.1
       IPv6=off
       Nameservers=8.8.8.8
 k3os:
@@ -14,7 +14,7 @@ k3os:
   - 8.8.8.8
   ntp_servers:
   - 0.us.pool.ntp.org
-  password: rancher
+  password: @1lSaved
   token: myclustersecret
   k3s_args:
   - server
