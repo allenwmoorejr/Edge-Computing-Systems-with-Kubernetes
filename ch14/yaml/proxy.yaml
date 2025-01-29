@@ -18,7 +18,7 @@ spec:
         app: proxy
     spec:
       containers:
-      - image: sergioarmgpl/proxy
+      - image: allenwayne/proxy
         name: proxy
         imagePullPolicy: Always
         env:
