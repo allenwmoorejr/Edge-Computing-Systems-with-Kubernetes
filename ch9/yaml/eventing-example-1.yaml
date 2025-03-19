@@ -31,7 +31,7 @@ spec:
         app: api-demo
     spec:
       containers:
-      - image: sergioarmgpl/app3demo
+      - image: allenwayne/app3demo
         name: app3demo
         imagePullPolicy: Always
 ---
